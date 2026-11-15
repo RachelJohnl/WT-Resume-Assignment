@@ -125,3 +125,113 @@ footer {
 .signature p {
     margin: 5px 0;
 }
+
+/* MOBILE RESPONSIVE DESIGN */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 22px 12px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px 8px;
+    }
+
+    nav a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .container,
+    .home {
+        width: 92%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 13px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .container,
+    .home {
+        width: 94%;
+        padding: 15px;
+        margin: 15px auto;
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    button {
+        max-width: 100%;
+        padding: 11px 18px;
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 7px;
+        word-break: break-word;
+    }
+
+    .signature img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
