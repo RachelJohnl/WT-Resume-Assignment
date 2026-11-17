@@ -1,45 +1,98 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Rachel John | Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>My Personal Website</h1>
-    <p>Welcome to my Resume and Bio-data</p>
-</header>
+    <header class="portfolio-header">
+        <h1>Rachel John<span class="accent">.</span></h1>
+        <p>My Personal Portfolio</p>
+    </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="resume.html">Resume</a>
-    <a href="biodata.html">Bio-data</a>
-</nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+        <a href="#about">About Me</a>
+    </nav>
 
-<section class="home">
-    <h2>Welcome</h2>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-tag">WELCOME TO MY PORTFOLIO</p>
 
-    <h3>Hello! I am Rachel John</h3>
+                <h1>Hello, I'm <span class="accent">Rachel John</span></h1>
 
-    <p>
-        Welcome to my personal website. This website contains
-        my resume and bio-data.
-    </p>
+                <h2 class="hero-role">
+                    I'm a <span id="typing-text">CSE Student</span>
+                </h2>
 
-    <button onclick="window.location.href='resume.html'">
-    View My Resume
-</button>
-</section>
+                <p class="hero-description">
+                    Passionate about technology, programming and
+                    creating meaningful digital experiences.
+                    I am continuously learning and exploring
+                    new opportunities in the world of technology.
+                </p>
 
-<footer>
-    <p>&copy; 2026 Rachel John</p>
-</footer>
+                <div class="hero-buttons">
+                    <a href="resume.html" class="hero-button">
+                        Explore My Resume
+                    </a>
 
-<script src="script.js"></script>
+                    <a href="#about" class="hero-button secondary-button">
+                        Discover More
+                    </a>
+                </div>
+            </div>
 
+            <div class="hero-profile">
+                <div class="profile-circle">
+                    RJ
+                </div>
+                <p>Computer Science Student</p>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <p class="hero-tag">GET TO KNOW ME</p>
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Science and Engineering student
+                interested in software development and modern
+                web technologies. I enjoy learning programming,
+                improving my technical skills and discovering
+                how technology can solve real-world problems.
+            </p>
+
+            <div class="quick-info">
+                <div class="info-card">
+                    <h3>01</h3>
+                    <p>Continuous Learning</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>02</h3>
+                    <p>Problem Solving</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>03</h3>
+                    <p>Technology Enthusiast</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Rachel John | Personal Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
