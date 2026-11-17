@@ -538,3 +538,38 @@ html {
         font-size: 12px;
     }
 }
+/* ===== PROFILE GLOW ANIMATION ===== */
+
+.profile-circle {
+    animation: profileGlow 3s ease-in-out infinite;
+    transition: transform 0.4s ease;
+}
+
+.profile-circle:hover {
+    transform: scale(1.08) rotate(5deg);
+}
+
+@keyframes profileGlow {
+    0%, 100% {
+        box-shadow: 0 0 25px #9333ea66;
+    }
+
+    50% {
+        box-shadow: 0 0 55px #a855f7,
+                    0 0 85px #6366f155;
+    }
+}
+
+/* ===== CARD HOVER EFFECT ===== */
+
+.info-card {
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+    border-color: #a855f7;
+    box-shadow: 0 10px 30px #9333ea33;
+}
