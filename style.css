@@ -230,7 +230,7 @@ footer {
         max-width: 150px;
         height: auto;
     }
-
+}
 /* ===== MODERN DARK PORTFOLIO THEME ===== */
 
 :root {
@@ -533,7 +533,7 @@ html {
         padding: 25px 18px;
     }
 }
-
+@media screen and (max-width: 480px) {
     footer {
         font-size: 12px;
     }
