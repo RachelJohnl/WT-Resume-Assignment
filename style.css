@@ -588,9 +588,12 @@ html {
 /* Profile Photo */
 .hero-profile {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
     flex-shrink: 0;
+    text-align: center;
 }
 
 .profile-circle {
@@ -619,4 +622,10 @@ html {
         height: 220px;
         min-width: 220px;
     }
+}
+.hero-profile p {
+    margin: 0;
+    text-align: center;
+    color: #f5f3ff;
+    font-size: 16px;
 }
